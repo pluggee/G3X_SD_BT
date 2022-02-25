@@ -1,0 +1,328 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Micro_SD_Card_Det J1
+U 1 1 621F1457
+P 9050 4500
+F 0 "J1" H 9000 5317 50  0000 C CNN
+F 1 "Micro_SD_Card_Det" H 9000 5226 50  0000 C CNN
+F 2 "Connector_Card:microSD_HC_Molex_104031-0811" H 11100 5200 50  0001 C CNN
+F 3 "https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&item_id=195&is_series=1" H 9050 4600 50  0001 C CNN
+F 4 "C585350" H 9050 4500 50  0001 C CNN "MPN"
+	1    9050 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 621F3F7A
+P 10000 5200
+F 0 "#PWR0101" H 10000 4950 50  0001 C CNN
+F 1 "GND" H 10005 5027 50  0000 C CNN
+F 2 "" H 10000 5200 50  0001 C CNN
+F 3 "" H 10000 5200 50  0001 C CNN
+	1    10000 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10000 5200 10000 5000
+Wire Wire Line
+	10000 5000 9850 5000
+$Comp
+L power:GND #PWR0102
+U 1 1 621F4360
+P 8250 2900
+F 0 "#PWR0102" H 8250 2650 50  0001 C CNN
+F 1 "GND" H 8255 2727 50  0000 C CNN
+F 2 "" H 8250 2900 50  0001 C CNN
+F 3 "" H 8250 2900 50  0001 C CNN
+	1    8250 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 2900 8250 2600
+Wire Wire Line
+	8250 2600 8550 2600
+Wire Wire Line
+	8550 2300 8250 2300
+Wire Wire Line
+	8250 2300 8250 2600
+Connection ~ 8250 2600
+$Comp
+L systems:SD_MMC_FOOTPRINT U1
+U 1 1 62186FFF
+P 8650 2400
+F 0 "U1" H 9303 2464 50  0000 L CNN
+F 1 "SD_MMC_FOOTPRINT" H 9303 2373 50  0000 L CNN
+F 2 "Main:SD_MMC_CARD" H 8525 1825 50  0001 L CNN
+F 3 "" H 8650 2400 50  0001 C CNN
+	1    8650 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8475 1975 7850 1975
+Wire Wire Line
+	7400 1975 7400 4100
+Wire Wire Line
+	7400 4100 8150 4100
+Wire Wire Line
+	8550 2100 7300 2100
+Wire Wire Line
+	7300 2100 7300 4200
+Wire Wire Line
+	8550 2200 7200 2200
+Wire Wire Line
+	7200 2200 7200 4300
+Wire Wire Line
+	7200 4300 8150 4300
+Wire Wire Line
+	8550 2400 7100 2400
+Wire Wire Line
+	7100 2400 7100 4400
+Wire Wire Line
+	7100 4400 8150 4400
+Wire Wire Line
+	8550 2500 7000 2500
+Wire Wire Line
+	7000 2500 7000 4500
+Wire Wire Line
+	7000 4500 8150 4500
+Wire Wire Line
+	6900 2700 6900 4700
+Wire Wire Line
+	6900 4700 8150 4700
+Wire Wire Line
+	8550 2800 7825 2800
+Wire Wire Line
+	6775 2800 6775 4800
+Wire Wire Line
+	6775 4800 8150 4800
+$Comp
+L power:GND #PWR0103
+U 1 1 621F7D5D
+P 7975 5200
+F 0 "#PWR0103" H 7975 4950 50  0001 C CNN
+F 1 "GND" H 7980 5027 50  0000 C CNN
+F 2 "" H 7975 5200 50  0001 C CNN
+F 3 "" H 7975 5200 50  0001 C CNN
+	1    7975 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7975 4600 8150 4600
+Wire Wire Line
+	7975 4600 7975 5200
+NoConn ~ 8150 4900
+NoConn ~ 8150 5000
+$Comp
+L systems:nRF52-Bluefruit U2
+U 1 1 62189BCE
+P 4225 2425
+F 0 "U2" H 4225 3440 50  0000 C CNN
+F 1 "nRF52-Bluefruit" H 4225 3349 50  0000 C CNN
+F 2 "Main:nRF52_Bluefruit" H 4225 2425 50  0001 C CNN
+F 3 "" H 4225 2425 50  0001 C CNN
+	1    4225 2425
+	1    0    0    -1  
+$EndComp
+Text Label 7500 4700 0    50   ~ 0
+MISO
+$Comp
+L Device:Net-Tie_2 NT3
+U 1 1 6218C85B
+P 7725 2800
+F 0 "NT3" H 7725 2981 50  0000 C CNN
+F 1 "Net-Tie_2" H 7725 2890 50  0000 C CNN
+F 2 "NetTie:NetTie-2_SMD_Pad0.5mm" H 7725 2800 50  0001 C CNN
+F 3 "~" H 7725 2800 50  0001 C CNN
+	1    7725 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7625 2800 6775 2800
+Wire Wire Line
+	8550 2700 6900 2700
+$Comp
+L Device:Net-Tie_2 NT4
+U 1 1 6218E303
+P 7750 1975
+F 0 "NT4" H 7750 2156 50  0000 C CNN
+F 1 "Net-Tie_2" H 7750 2065 50  0000 C CNN
+F 2 "NetTie:NetTie-2_SMD_Pad0.5mm" H 7750 1975 50  0001 C CNN
+F 3 "~" H 7750 1975 50  0001 C CNN
+	1    7750 1975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 1975 7400 1975
+Text Label 7500 4800 0    50   ~ 0
+DAT1
+Text Label 7500 4500 0    50   ~ 0
+CLK
+Text Label 7500 4300 0    50   ~ 0
+MOSI
+Text Label 7500 4200 0    50   ~ 0
+CS
+Text Label 7500 4100 0    50   ~ 0
+DAT2
+Text Label 7975 1975 0    50   ~ 0
+DAT2_T
+Text Label 7975 2800 0    50   ~ 0
+DAT1_T
+$Comp
+L power:+3.3V #PWR0104
+U 1 1 6219435A
+P 7100 2175
+F 0 "#PWR0104" H 7100 2025 50  0001 C CNN
+F 1 "+3.3V" H 7115 2348 50  0000 C CNN
+F 2 "" H 7100 2175 50  0001 C CNN
+F 3 "" H 7100 2175 50  0001 C CNN
+	1    7100 2175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 2175 7100 2400
+Connection ~ 7100 2400
+$Comp
+L power:+3.3V #PWR0105
+U 1 1 6219542E
+P 3425 1675
+F 0 "#PWR0105" H 3425 1525 50  0001 C CNN
+F 1 "+3.3V" H 3440 1848 50  0000 C CNN
+F 2 "" H 3425 1675 50  0001 C CNN
+F 3 "" H 3425 1675 50  0001 C CNN
+	1    3425 1675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3425 1675 3425 1775
+Wire Wire Line
+	3425 1775 3775 1775
+Wire Wire Line
+	3425 1775 3425 1875
+Wire Wire Line
+	3425 1875 3775 1875
+Connection ~ 3425 1775
+$Comp
+L power:GND #PWR0106
+U 1 1 62196EAD
+P 5475 2450
+F 0 "#PWR0106" H 5475 2200 50  0001 C CNN
+F 1 "GND" H 5480 2277 50  0000 C CNN
+F 2 "" H 5475 2450 50  0001 C CNN
+F 3 "" H 5475 2450 50  0001 C CNN
+	1    5475 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Net-Tie_2 NT2
+U 1 1 62197349
+P 5125 2175
+F 0 "NT2" H 5125 2356 50  0000 C CNN
+F 1 "Net-Tie_2" H 5125 2265 50  0000 C CNN
+F 2 "NetTie:NetTie-2_SMD_Pad0.5mm" H 5125 2175 50  0001 C CNN
+F 3 "~" H 5125 2175 50  0001 C CNN
+	1    5125 2175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4675 2175 5025 2175
+Wire Wire Line
+	5475 2450 5475 2175
+Wire Wire Line
+	5475 2175 5225 2175
+Text Label 4750 2175 0    39   ~ 0
+REG_EN
+$Comp
+L power:GND #PWR0107
+U 1 1 6219DD04
+P 3425 2075
+F 0 "#PWR0107" H 3425 1825 50  0001 C CNN
+F 1 "GND" H 3430 1902 50  0000 C CNN
+F 2 "" H 3425 2075 50  0001 C CNN
+F 3 "" H 3425 2075 50  0001 C CNN
+	1    3425 2075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3425 2075 3425 1975
+Wire Wire Line
+	3425 1975 3775 1975
+Wire Wire Line
+	7000 4500 3250 4500
+Wire Wire Line
+	3250 4500 3250 2675
+Wire Wire Line
+	3250 2675 3775 2675
+Connection ~ 7000 4500
+Wire Wire Line
+	7200 4300 3325 4300
+Wire Wire Line
+	3325 4300 3325 2775
+Wire Wire Line
+	3325 2775 3775 2775
+Connection ~ 7200 4300
+Wire Wire Line
+	6900 4700 4475 4700
+Wire Wire Line
+	3400 4700 3400 2875
+Wire Wire Line
+	3400 2875 3775 2875
+Connection ~ 6900 4700
+$Comp
+L Device:Net-Tie_2 NT1
+U 1 1 621A204C
+P 4375 4700
+F 0 "NT1" H 4375 4881 50  0000 C CNN
+F 1 "Net-Tie_2" H 4375 4790 50  0000 C CNN
+F 2 "NetTie:NetTie-2_SMD_Pad0.5mm" H 4375 4700 50  0001 C CNN
+F 3 "~" H 4375 4700 50  0001 C CNN
+	1    4375 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4275 4700 3400 4700
+Text Label 3500 4700 0    50   ~ 0
+MISO_FEATHER
+Wire Wire Line
+	7300 4200 8150 4200
+Wire Wire Line
+	7300 4200 3175 4200
+Wire Wire Line
+	3175 4200 3175 2575
+Wire Wire Line
+	3175 2575 3775 2575
+Connection ~ 7300 4200
+NoConn ~ 3775 3175
+NoConn ~ 3775 3075
+NoConn ~ 3775 2975
+NoConn ~ 3775 2475
+NoConn ~ 3775 2375
+NoConn ~ 3775 2275
+NoConn ~ 3775 2175
+NoConn ~ 3775 2075
+NoConn ~ 3775 1675
+NoConn ~ 4675 2075
+NoConn ~ 4675 2275
+NoConn ~ 4675 2375
+NoConn ~ 4675 2475
+NoConn ~ 4675 2575
+NoConn ~ 4675 2675
+NoConn ~ 4675 2775
+NoConn ~ 4675 2875
+NoConn ~ 4675 2975
+NoConn ~ 4675 3075
+NoConn ~ 4675 3175
+$EndSCHEMATC
