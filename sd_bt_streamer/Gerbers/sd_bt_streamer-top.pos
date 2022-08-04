@@ -1,7 +1,9 @@
-### Module positions - created on Fri Feb 25 00:36:34 2022 ###
-### Printed by Pcbnew version kicad 5.1.10-88a1d61d58~90~ubuntu20.04.1
+### Module positions - created on Friday, July 29, 2022 at 04:48:17 PM ###
+### Printed by Pcbnew version (6.0.6-0)
 ## Unit = mm, Angle = deg.
 ## Side : top
 # Ref     Val                Package                            PosX       PosY       Rot  Side
+D1        1N5819HW-7-F       D_SOD-123                      155.0000   -58.8000    0.0000  top
 J1        Micro_SD_Card_Det  microSD_HC_Molex_104031-0811   164.0000   -98.7500  180.0000  top
+U2        ESP32-DevKitC      ESP32-DevKitC                  162.0000   -81.5000    0.0000  top
 ## End

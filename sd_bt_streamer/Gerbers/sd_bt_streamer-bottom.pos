@@ -1,6 +1,7 @@
-### Module positions - created on Fri Feb 25 00:36:34 2022 ###
-### Printed by Pcbnew version kicad 5.1.10-88a1d61d58~90~ubuntu20.04.1
+### Module positions - created on Friday, July 29, 2022 at 04:48:17 PM ###
+### Printed by Pcbnew version (6.0.6-0)
 ## Unit = mm, Angle = deg.
 ## Side : bottom
-# Ref     Val       Package                PosX       PosY       Rot  Side
+# Ref     Val               Package                PosX       PosY       Rot  Side
+U1        SD_MMC_FOOTPRINT  SD_MMC_CARD       -193.0000   -81.5000   90.0000  bottom
 ## End
