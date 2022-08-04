@@ -1,0 +1,7 @@
+### Module positions - created on Wednesday, August 03, 2022 at 10:03:42 PM ###
+### Printed by Pcbnew version (6.0.6-0)
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val               Package                PosX       PosY       Rot  Side
+U1        SD_MMC_FOOTPRINT  SD_MMC_CARD       -193.0000   -81.5000   90.0000  bottom
+## End

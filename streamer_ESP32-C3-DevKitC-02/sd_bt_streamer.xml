@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/sherif/git/G3X_SD_BT/sd_bt_streamer/sd_bt_streamer.kicad_sch</source>
+    <date>Friday, July 29, 2022 at 05:05:14 PM</date>
+    <tool>Eeschema (6.0.6-0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>sd_bt_streamer.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D1">
+      <value>1N5819HW-7-F</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="MPN">C82544</field>
+      </fields>
+      <libsource lib="Diode" part="1N5818" description="30V 1A Schottky Barrier Rectifier Diode, DO-41"/>
+      <property name="MPN" value="C82544"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sd_bt_streamer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>540322f4-291b-428b-b280-0bae375d2db4</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Micro_SD_Card_Det</value>
+      <footprint>Connector_Card:microSD_HC_Molex_104031-0811</footprint>
+      <datasheet>https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&amp;item_id=195&amp;is_series=1</datasheet>
+      <fields>
+        <field name="MPN">C585350</field>
+      </fields>
+      <libsource lib="Connector" part="Micro_SD_Card_Det" description="Micro SD Card Socket with card detection pins"/>
+      <property name="MPN" value="C585350"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sd_bt_streamer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000621f1457</tstamps>
+    </comp>
+    <comp ref="NT1">
+      <value>NetTie_2</value>
+      <footprint>NetTie:NetTie-2_SMD_Pad0.5mm</footprint>
+      <libsource lib="Device" part="NetTie_2" description="Net tie, 2 pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sd_bt_streamer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fac51bec-68cb-4ae9-9930-86b5a5d55c3d</tstamps>
+    </comp>
+    <comp ref="NT3">
+      <value>NetTie_2</value>
+      <footprint>NetTie:NetTie-2_SMD_Pad0.5mm</footprint>
+      <libsource lib="Device" part="NetTie_2" description="Net tie, 2 pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sd_bt_streamer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>963afa97-1e8c-4ae5-b556-f511d7871743</tstamps>
+    </comp>
+    <comp ref="NT4">
+      <value>NetTie_2</value>
+      <footprint>NetTie:NetTie-2_SMD_Pad0.5mm</footprint>
+      <libsource lib="Device" part="NetTie_2" description="Net tie, 2 pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sd_bt_streamer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ebeb9247-9c96-4dcf-99b1-f9d153293205</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>SD_MMC_FOOTPRINT</value>
+      <footprint>Main:SD_MMC_CARD</footprint>
+      <libsource lib="systems" part="SD_MMC_FOOTPRINT" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sd_bt_streamer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062186fff</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>ESP32-DevKitC</value>
+      <footprint>Main:ESP32-DevKitC</footprint>
+      <libsource lib="systems" part="ESP32-DevKitC" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sd_bt_streamer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7fbee26d-cf8e-4003-9bb2-02b9ebd980d2</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Micro_SD_Card_Det">
+      <description>Micro SD Card Socket with card detection pins</description>
+      <docs>https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&amp;item_id=195&amp;is_series=1</docs>
+      <footprints>
+        <fp>microSD*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Micro_SD_Card_Det</field>
+        <field name="Datasheet">https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&amp;item_id=195&amp;is_series=1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DAT2" type="bidirectional"/>
+        <pin num="2" name="DAT3/CD" type="bidirectional"/>
+        <pin num="3" name="CMD" type="input"/>
+        <pin num="4" name="VDD" type="power_in"/>
+        <pin num="5" name="CLK" type="input"/>
+        <pin num="6" name="VSS" type="power_in"/>
+        <pin num="7" name="DAT0" type="bidirectional"/>
+        <pin num="8" name="DAT1" type="bidirectional"/>
+        <pin num="9" name="DET_B" type="passive"/>
+        <pin num="10" name="DET_A" type="passive"/>
+        <pin num="11" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="NetTie_2">
+      <description>Net tie, 2 pins</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Net*Tie*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">NT</field>
+        <field name="Value">NetTie_2</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N5818">
+      <description>30V 1A Schottky Barrier Rectifier Diode, DO-41</description>
+      <docs>http://www.vishay.com/docs/88525/1n5817.pdf</docs>
+      <footprints>
+        <fp>D*DO?41*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N5818</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+        <field name="Datasheet">http://www.vishay.com/docs/88525/1n5817.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="systems" part="ESP32-DevKitC">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESP32-DevKitC</field>
+        <field name="Footprint">Main:ESP32-DevKitC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="3V3" type="power_in"/>
+        <pin num="2" name="EN" type="input"/>
+        <pin num="3" name="VP" type="bidirectional"/>
+        <pin num="4" name="VN" type="bidirectional"/>
+        <pin num="5" name="34" type="bidirectional"/>
+        <pin num="6" name="35" type="bidirectional"/>
+        <pin num="7" name="32" type="bidirectional"/>
+        <pin num="8" name="33" type="bidirectional"/>
+        <pin num="9" name="25" type="bidirectional"/>
+        <pin num="10" name="26" type="bidirectional"/>
+        <pin num="11" name="27" type="bidirectional"/>
+        <pin num="12" name="14" type="bidirectional"/>
+        <pin num="13" name="12" type="bidirectional"/>
+        <pin num="14" name="GND" type="bidirectional"/>
+        <pin num="15" name="13" type="bidirectional"/>
+        <pin num="16" name="D2" type="bidirectional"/>
+        <pin num="17" name="D3" type="bidirectional"/>
+        <pin num="18" name="CMD" type="bidirectional"/>
+        <pin num="19" name="5V" type="bidirectional"/>
+        <pin num="20" name="SCLK" type="bidirectional"/>
+        <pin num="21" name="D0" type="bidirectional"/>
+        <pin num="22" name="D1" type="bidirectional"/>
+        <pin num="23" name="15" type="bidirectional"/>
+        <pin num="24" name="2" type="bidirectional"/>
+        <pin num="25" name="0" type="bidirectional"/>
+        <pin num="26" name="4" type="bidirectional"/>
+        <pin num="27" name="16" type="bidirectional"/>
+        <pin num="28" name="17" type="bidirectional"/>
+        <pin num="29" name="5" type="bidirectional"/>
+        <pin num="30" name="18" type="bidirectional"/>
+        <pin num="31" name="19" type="bidirectional"/>
+        <pin num="32" name="GND" type="bidirectional"/>
+        <pin num="33" name="21" type="bidirectional"/>
+        <pin num="34" name="RX" type="bidirectional"/>
+        <pin num="35" name="TX" type="bidirectional"/>
+        <pin num="36" name="22" type="bidirectional"/>
+        <pin num="37" name="23" type="bidirectional"/>
+        <pin num="38" name="GND" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="systems" part="SD_MMC_FOOTPRINT">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SD_MMC_FOOTPRINT</field>
+        <field name="Footprint">Main:SD_MMC_CARD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DAT3/CS" type="bidirectional"/>
+        <pin num="2" name="CMD/MOSI" type="input"/>
+        <pin num="3" name="VSS1" type="power_out"/>
+        <pin num="4" name="VDD" type="power_out"/>
+        <pin num="5" name="CLOCK" type="output"/>
+        <pin num="6" name="VSS2" type="output"/>
+        <pin num="7" name="DAT0/MISO" type="output"/>
+        <pin num="8" name="DAT1/IRQ" type="output"/>
+        <pin num="9" name="DAT2/NC" type="output"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Diode.kicad_sym</uri>
+    </library>
+    <library logical="systems">
+      <uri>/Users/sherif/git/KiCADLibs/sch/systems.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3.3V">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U1" pin="4" pinfunction="VDD" pintype="power_out"/>
+    </net>
+    <net code="2" name="+3.3VP">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="3V3" pintype="power_in"/>
+    </net>
+    <net code="3" name="/CLK">
+      <node ref="J1" pin="5" pinfunction="CLK" pintype="input"/>
+      <node ref="U1" pin="5" pinfunction="CLOCK" pintype="output"/>
+      <node ref="U2" pin="12" pinfunction="14" pintype="bidirectional"/>
+      <node ref="U2" pin="30" pinfunction="18" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="/CS">
+      <node ref="J1" pin="2" pinfunction="DAT3/CD" pintype="bidirectional"/>
+      <node ref="U1" pin="1" pinfunction="DAT3/CS" pintype="bidirectional"/>
+      <node ref="U2" pin="23" pinfunction="15" pintype="bidirectional"/>
+      <node ref="U2" pin="29" pinfunction="5" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/DAT1">
+      <node ref="J1" pin="8" pinfunction="DAT1" pintype="bidirectional"/>
+      <node ref="NT3" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="6" name="/DAT1_T">
+      <node ref="NT3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="DAT1/IRQ" pintype="output"/>
+    </net>
+    <net code="7" name="/DAT2">
+      <node ref="J1" pin="1" pinfunction="DAT2" pintype="bidirectional"/>
+      <node ref="NT4" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="8" name="/DAT2_T">
+      <node ref="NT4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="DAT2/NC" pintype="output"/>
+    </net>
+    <net code="9" name="/MISO">
+      <node ref="J1" pin="7" pinfunction="DAT0" pintype="bidirectional"/>
+      <node ref="NT1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="DAT0/MISO" pintype="output"/>
+    </net>
+    <net code="10" name="/MISO_ESP32">
+      <node ref="NT1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="13" pinfunction="12" pintype="bidirectional"/>
+      <node ref="U2" pin="31" pinfunction="19" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="/MOSI">
+      <node ref="J1" pin="3" pinfunction="CMD" pintype="input"/>
+      <node ref="U1" pin="2" pinfunction="CMD/MOSI" pintype="input"/>
+      <node ref="U2" pin="15" pinfunction="13" pintype="bidirectional"/>
+      <node ref="U2" pin="37" pinfunction="23" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="GND">
+      <node ref="J1" pin="11" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="J1" pin="6" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U1" pin="3" pinfunction="VSS1" pintype="power_out"/>
+      <node ref="U1" pin="6" pinfunction="VSS2" pintype="output"/>
+      <node ref="U2" pin="14" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="U2" pin="32" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="U2" pin="38" pinfunction="GND" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="unconnected-(J1-Pad9)">
+      <node ref="J1" pin="9" pinfunction="DET_B" pintype="passive+no_connect"/>
+    </net>
+    <net code="14" name="unconnected-(J1-Pad10)">
+      <node ref="J1" pin="10" pinfunction="DET_A" pintype="passive+no_connect"/>
+    </net>
+    <net code="15" name="unconnected-(U2-Pad2)">
+      <node ref="U2" pin="2" pinfunction="EN" pintype="input+no_connect"/>
+    </net>
+    <net code="16" name="unconnected-(U2-Pad3)">
+      <node ref="U2" pin="3" pinfunction="VP" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="17" name="unconnected-(U2-Pad4)">
+      <node ref="U2" pin="4" pinfunction="VN" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="18" name="unconnected-(U2-Pad5)">
+      <node ref="U2" pin="5" pinfunction="34" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="19" name="unconnected-(U2-Pad6)">
+      <node ref="U2" pin="6" pinfunction="35" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="20" name="unconnected-(U2-Pad7)">
+      <node ref="U2" pin="7" pinfunction="32" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="21" name="unconnected-(U2-Pad8)">
+      <node ref="U2" pin="8" pinfunction="33" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="22" name="unconnected-(U2-Pad9)">
+      <node ref="U2" pin="9" pinfunction="25" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="23" name="unconnected-(U2-Pad10)">
+      <node ref="U2" pin="10" pinfunction="26" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="24" name="unconnected-(U2-Pad11)">
+      <node ref="U2" pin="11" pinfunction="27" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="25" name="unconnected-(U2-Pad16)">
+      <node ref="U2" pin="16" pinfunction="D2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="26" name="unconnected-(U2-Pad17)">
+      <node ref="U2" pin="17" pinfunction="D3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="27" name="unconnected-(U2-Pad18)">
+      <node ref="U2" pin="18" pinfunction="CMD" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="28" name="unconnected-(U2-Pad19)">
+      <node ref="U2" pin="19" pinfunction="5V" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="29" name="unconnected-(U2-Pad20)">
+      <node ref="U2" pin="20" pinfunction="SCLK" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="30" name="unconnected-(U2-Pad21)">
+      <node ref="U2" pin="21" pinfunction="D0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="31" name="unconnected-(U2-Pad22)">
+      <node ref="U2" pin="22" pinfunction="D1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="32" name="unconnected-(U2-Pad24)">
+      <node ref="U2" pin="24" pinfunction="2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="33" name="unconnected-(U2-Pad25)">
+      <node ref="U2" pin="25" pinfunction="0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="34" name="unconnected-(U2-Pad26)">
+      <node ref="U2" pin="26" pinfunction="4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="35" name="unconnected-(U2-Pad27)">
+      <node ref="U2" pin="27" pinfunction="16" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="36" name="unconnected-(U2-Pad28)">
+      <node ref="U2" pin="28" pinfunction="17" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="37" name="unconnected-(U2-Pad33)">
+      <node ref="U2" pin="33" pinfunction="21" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="38" name="unconnected-(U2-Pad34)">
+      <node ref="U2" pin="34" pinfunction="RX" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="39" name="unconnected-(U2-Pad35)">
+      <node ref="U2" pin="35" pinfunction="TX" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="40" name="unconnected-(U2-Pad36)">
+      <node ref="U2" pin="36" pinfunction="22" pintype="bidirectional+no_connect"/>
+    </net>
+  </nets>
+</export>

@@ -1,0 +1,27 @@
+"Source:","/Users/sherif/git/G3X_SD_BT/sd_bt_streamer/sd_bt_streamer.kicad_sch"
+"Date:","Friday, July 29, 2022 at 05:05:14 PM"
+"Tool:","Eeschema (6.0.6-0)"
+"Generator:","/Applications/KiCad/KiCad.app/Contents/SharedSupport/plugins/bom_csv_grouped_by_value.py"
+"Component Count:","7"
+
+"Individual Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","MPN"
+"","","D1","1N5819HW-7-F","Diode:1N5818","Diode_SMD:D_SOD-123","http://www.vishay.com/docs/88525/1n5817.pdf","C82544"
+"","","J1","Micro_SD_Card_Det","Connector:Micro_SD_Card_Det","Connector_Card:microSD_HC_Molex_104031-0811","https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&item_id=195&is_series=1","C585350"
+"","","NT1","NetTie_2","Device:NetTie_2","NetTie:NetTie-2_SMD_Pad0.5mm","~",""
+"","","NT3","NetTie_2","Device:NetTie_2","NetTie:NetTie-2_SMD_Pad0.5mm","~",""
+"","","NT4","NetTie_2","Device:NetTie_2","NetTie:NetTie-2_SMD_Pad0.5mm","~",""
+"","","U1","SD_MMC_FOOTPRINT","systems:SD_MMC_FOOTPRINT","Main:SD_MMC_CARD","",""
+"","","U2","ESP32-DevKitC","systems:ESP32-DevKitC","Main:ESP32-DevKitC","",""
+
+
+
+"Collated Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","MPN"
+"1","1","D1","1N5819HW-7-F","Diode:1N5818","Diode_SMD:D_SOD-123","http://www.vishay.com/docs/88525/1n5817.pdf","C82544"
+"2","1","J1","Micro_SD_Card_Det","Connector:Micro_SD_Card_Det","Connector_Card:microSD_HC_Molex_104031-0811","https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&item_id=195&is_series=1","C585350"
+"3","3","NT1, NT3, NT4","NetTie_2","Device:NetTie_2","NetTie:NetTie-2_SMD_Pad0.5mm","~",""
+"4","1","U1","SD_MMC_FOOTPRINT","systems:SD_MMC_FOOTPRINT","Main:SD_MMC_CARD","",""
+"5","1","U2","ESP32-DevKitC","systems:ESP32-DevKitC","Main:ESP32-DevKitC","",""
