@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/sherifeid/git/G3X_SD_BT/streamer_qtpy/sd_bt_qtpy.kicad_sch</source>
+    <date>Tuesday, September 20, 2022 at 04:08:05 PM</date>
+    <tool>Eeschema (6.0.7-1)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>sd_bt_qtpy.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>CC0402KRX7R7BB103</value>
+      <footprint>Main:CAPC0402</footprint>
+      <fields>
+        <field name="C">10.0 nF</field>
+        <field name="MPN">CC0402KRX7R7BB103</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="SKU">STUFF</field>
+        <field name="Tol">±10%</field>
+        <field name="Type">X7R</field>
+        <field name="Vmax">16.0V</field>
+      </fields>
+      <libsource lib="cap_smd" part="CC0402KRX7R7BB103" description="10.0 nF 0402 X7R ±10% 16.0V"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="MPN" value="CC0402KRX7R7BB103"/>
+      <property name="SKU" value="STUFF"/>
+      <property name="C" value="10.0 nF"/>
+      <property name="Tol" value="±10%"/>
+      <property name="Vmax" value="16.0V"/>
+      <property name="Type" value="X7R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sd_bt_qtpy.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>db104a5f-394e-4296-8965-205f7c3107f4</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>CC0402KRX7R7BB103</value>
+      <footprint>Main:CAPC0402</footprint>
+      <fields>
+        <field name="C">10.0 nF</field>
+        <field name="MPN">CC0402KRX7R7BB103</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="SKU">STUFF</field>
+        <field name="Tol">±10%</field>
+        <field name="Type">X7R</field>
+        <field name="Vmax">16.0V</field>
+      </fields>
+      <libsource lib="cap_smd" part="CC0402KRX7R7BB103" description="10.0 nF 0402 X7R ±10% 16.0V"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="MPN" value="CC0402KRX7R7BB103"/>
+      <property name="SKU" value="STUFF"/>
+      <property name="C" value="10.0 nF"/>
+      <property name="Tol" value="±10%"/>
+      <property name="Vmax" value="16.0V"/>
+      <property name="Type" value="X7R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sd_bt_qtpy.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ca86ba58-d48a-4779-bdb6-18e27987b3cc</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>1N5819HW-7-F</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="MPN">C82544</field>
+      </fields>
+      <libsource lib="Diode" part="1N5818" description="30V 1A Schottky Barrier Rectifier Diode, DO-41"/>
+      <property name="MPN" value="C82544"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sd_bt_qtpy.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>540322f4-291b-428b-b280-0bae375d2db4</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Micro_SD_Card_Det</value>
+      <footprint>Connector_Card:microSD_HC_Molex_104031-0811</footprint>
+      <datasheet>https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&amp;item_id=195&amp;is_series=1</datasheet>
+      <fields>
+        <field name="MPN">C585350</field>
+      </fields>
+      <libsource lib="Connector" part="Micro_SD_Card_Det" description="Micro SD Card Socket with card detection pins"/>
+      <property name="MPN" value="C585350"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sd_bt_qtpy.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000621f1457</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>RC0603FR-071KL</value>
+      <footprint>Main:RESC0603</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-071KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Pwr">100 mW</field>
+        <field name="Res">1.00 kΩ</field>
+        <field name="SKU">STUFF</field>
+        <field name="Tol">±1%</field>
+      </fields>
+      <libsource lib="res_smd" part="RC0603FR-071KL" description="RES 0603 1.00 kΩ ±1%"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="MPN" value="RC0603FR-071KL"/>
+      <property name="SKU" value="STUFF"/>
+      <property name="Res" value="1.00 kΩ"/>
+      <property name="Tol" value="±1%"/>
+      <property name="Pwr" value="100 mW"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sd_bt_qtpy.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ceebafe3-24d4-417d-8d2b-27405119bc17</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>SD_MMC_FOOTPRINT</value>
+      <footprint>Main:SD_MMC_CARD</footprint>
+      <libsource lib="systems" part="SD_MMC_FOOTPRINT" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sd_bt_qtpy.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062186fff</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>QTPyESP32</value>
+      <footprint>Main:QTPyESP32</footprint>
+      <fields>
+        <field name="MPN">QTPyESP32</field>
+      </fields>
+      <libsource lib="" part="QTPyESP32_1" description=""/>
+      <property name="MPN" value="QTPyESP32"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sd_bt_qtpy.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4c1f5bec-a56c-45ad-8f93-31b5cf19b668</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="QTPyESP32_1">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">QTPyESP32_1</field>
+        <field name="Footprint">Main:QTPyESP32</field>
+        <field name="MPN">QTPyESP32</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D26" type="bidirectional"/>
+        <pin num="2" name="D25" type="bidirectional"/>
+        <pin num="3" name="D27" type="bidirectional"/>
+        <pin num="4" name="D15" type="bidirectional"/>
+        <pin num="5" name="SDA/D4" type="bidirectional"/>
+        <pin num="6" name="SCL/D33" type="bidirectional"/>
+        <pin num="7" name="TX/D32" type="bidirectional"/>
+        <pin num="8" name="D7/RX" type="power_out"/>
+        <pin num="9" name="D14/SCK" type="power_out"/>
+        <pin num="10" name="D12/MISO" type="power_out"/>
+        <pin num="11" name="D13/MOSI" type="power_out"/>
+        <pin num="12" name="3V3" type="power_out"/>
+        <pin num="13" name="GND" type="power_in"/>
+        <pin num="14" name="5V" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Micro_SD_Card_Det">
+      <description>Micro SD Card Socket with card detection pins</description>
+      <docs>https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&amp;item_id=195&amp;is_series=1</docs>
+      <footprints>
+        <fp>microSD*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Micro_SD_Card_Det</field>
+        <field name="Datasheet">https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&amp;item_id=195&amp;is_series=1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DAT2" type="bidirectional"/>
+        <pin num="2" name="DAT3/CD" type="bidirectional"/>
+        <pin num="3" name="CMD" type="input"/>
+        <pin num="4" name="VDD" type="power_in"/>
+        <pin num="5" name="CLK" type="input"/>
+        <pin num="6" name="VSS" type="power_in"/>
+        <pin num="7" name="DAT0" type="bidirectional"/>
+        <pin num="8" name="DAT1" type="bidirectional"/>
+        <pin num="9" name="DET_B" type="passive"/>
+        <pin num="10" name="DET_A" type="passive"/>
+        <pin num="11" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N5818">
+      <description>30V 1A Schottky Barrier Rectifier Diode, DO-41</description>
+      <docs>http://www.vishay.com/docs/88525/1n5817.pdf</docs>
+      <footprints>
+        <fp>D*DO?41*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N5818</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+        <field name="Datasheet">http://www.vishay.com/docs/88525/1n5817.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="cap_smd" part="CC0402KRX7R7BB103">
+      <description>10.0 nF 0402 X7R ±10% 16.0V</description>
+      <footprints>
+        <fp>Capacitor_*</fp>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CC0402KRX7R7BB103</field>
+        <field name="Footprint">Main:CAPC0402</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="MPN">CC0402KRX7R7BB103</field>
+        <field name="SKU">STUFF</field>
+        <field name="C">10.0 nF</field>
+        <field name="Tol">±10%</field>
+        <field name="Vmax">16.0V</field>
+        <field name="Type">X7R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="res_smd" part="RC0603FR-071KL">
+      <description>RES 0603 1.00 kΩ ±1%</description>
+      <footprints>
+        <fp>Resistor_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RC0603FR-071KL</field>
+        <field name="Footprint">Main:RESC0603</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="MPN">RC0603FR-071KL</field>
+        <field name="SKU">STUFF</field>
+        <field name="Res">1.00 kΩ</field>
+        <field name="Tol">±1%</field>
+        <field name="Pwr">100 mW</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="systems" part="SD_MMC_FOOTPRINT">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SD_MMC_FOOTPRINT</field>
+        <field name="Footprint">Main:SD_MMC_CARD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DAT3/CS" type="bidirectional"/>
+        <pin num="2" name="CMD/MOSI" type="input"/>
+        <pin num="3" name="VSS1" type="power_out"/>
+        <pin num="4" name="VDD" type="power_out"/>
+        <pin num="5" name="CLOCK" type="output"/>
+        <pin num="6" name="VSS2" type="output"/>
+        <pin num="7" name="DAT0/MISO" type="output"/>
+        <pin num="8" name="DAT1/IRQ" type="output"/>
+        <pin num="9" name="DAT2/NC" type="output"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Diode.kicad_sym</uri>
+    </library>
+    <library logical="cap_smd">
+      <uri>/Users/sherifeid/git/KiCADLibs/sch/cap_smd.kicad_sym</uri>
+    </library>
+    <library logical="res_smd">
+      <uri>/Users/sherifeid/git/KiCADLibs/sch/res_smd.kicad_sym</uri>
+    </library>
+    <library logical="systems">
+      <uri>/Users/sherifeid/git/KiCADLibs/sch/systems.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3.3V">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U1" pin="4" pinfunction="VDD" pintype="power_out"/>
+      <node ref="U2" pin="1" pinfunction="D26" pintype="bidirectional"/>
+    </net>
+    <net code="2" name="+3.3VP">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U2" pin="12" pinfunction="3V3" pintype="power_out"/>
+      <node ref="U2" pin="2" pinfunction="D25" pintype="bidirectional"/>
+    </net>
+    <net code="3" name="/CLK">
+      <node ref="J1" pin="5" pinfunction="CLK" pintype="input"/>
+      <node ref="U1" pin="5" pinfunction="CLOCK" pintype="output"/>
+      <node ref="U2" pin="9" pinfunction="D14/SCK" pintype="power_out"/>
+    </net>
+    <net code="4" name="/CMD">
+      <node ref="J1" pin="3" pinfunction="CMD" pintype="input"/>
+      <node ref="U1" pin="2" pinfunction="CMD/MOSI" pintype="input"/>
+      <node ref="U2" pin="4" pinfunction="D15" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/DAT0">
+      <node ref="J1" pin="7" pinfunction="DAT0" pintype="bidirectional"/>
+      <node ref="U1" pin="7" pinfunction="DAT0/MISO" pintype="output"/>
+      <node ref="U2" pin="8" pinfunction="D7/RX" pintype="power_out"/>
+    </net>
+    <net code="6" name="/DAT1">
+      <node ref="J1" pin="8" pinfunction="DAT1" pintype="bidirectional"/>
+      <node ref="U1" pin="8" pinfunction="DAT1/IRQ" pintype="output"/>
+      <node ref="U2" pin="5" pinfunction="SDA/D4" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="/DAT2">
+      <node ref="J1" pin="1" pinfunction="DAT2" pintype="bidirectional"/>
+      <node ref="U1" pin="9" pinfunction="DAT2/NC" pintype="output"/>
+      <node ref="U2" pin="10" pinfunction="D12/MISO" pintype="power_out"/>
+    </net>
+    <net code="8" name="/DAT3">
+      <node ref="J1" pin="2" pinfunction="DAT3/CD" pintype="bidirectional"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U2" pin="11" pinfunction="D13/MOSI" pintype="power_out"/>
+    </net>
+    <net code="9" name="/DAT3_HOST">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="DAT3/CS" pintype="bidirectional"/>
+      <node ref="U2" pin="3" pinfunction="D27" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="J1" pin="11" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="J1" pin="6" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U1" pin="3" pinfunction="VSS1" pintype="power_out"/>
+      <node ref="U1" pin="6" pinfunction="VSS2" pintype="output"/>
+      <node ref="U2" pin="13" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="11" name="unconnected-(J1-Pad9)">
+      <node ref="J1" pin="9" pinfunction="DET_B" pintype="passive+no_connect"/>
+    </net>
+    <net code="12" name="unconnected-(J1-Pad10)">
+      <node ref="J1" pin="10" pinfunction="DET_A" pintype="passive+no_connect"/>
+    </net>
+    <net code="13" name="unconnected-(U2-Pad6)">
+      <node ref="U2" pin="6" pinfunction="SCL/D33" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="14" name="unconnected-(U2-Pad7)">
+      <node ref="U2" pin="7" pinfunction="TX/D32" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="15" name="unconnected-(U2-Pad14)">
+      <node ref="U2" pin="14" pinfunction="5V" pintype="power_in+no_connect"/>
+    </net>
+  </nets>
+</export>

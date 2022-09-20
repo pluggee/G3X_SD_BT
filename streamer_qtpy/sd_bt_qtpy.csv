@@ -1,0 +1,28 @@
+"Source:","/Users/sherifeid/git/G3X_SD_BT/streamer_qtpy/sd_bt_qtpy.kicad_sch"
+"Date:","Tuesday, September 20, 2022 at 04:08:05 PM"
+"Tool:","Eeschema (6.0.7-1)-1"
+"Generator:","/Applications/KiCad/KiCad.app/Contents/SharedSupport/plugins/bom_csv_grouped_by_value.py"
+"Component Count:","7"
+
+"Individual Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","C","MPN","Manufacturer","Pwr","Res","SKU","Tol","Type","Vmax"
+"","","C1","CC0402KRX7R7BB103","cap_smd:CC0402KRX7R7BB103","Main:CAPC0402","","10.0 nF","CC0402KRX7R7BB103","Yageo","","","STUFF","±10%","X7R","16.0V"
+"","","C2","CC0402KRX7R7BB103","cap_smd:CC0402KRX7R7BB103","Main:CAPC0402","","10.0 nF","CC0402KRX7R7BB103","Yageo","","","STUFF","±10%","X7R","16.0V"
+"","","D1","1N5819HW-7-F","Diode:1N5818","Diode_SMD:D_SOD-123","http://www.vishay.com/docs/88525/1n5817.pdf","","C82544","","","","","","",""
+"","","J1","Micro_SD_Card_Det","Connector:Micro_SD_Card_Det","Connector_Card:microSD_HC_Molex_104031-0811","https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&item_id=195&is_series=1","","C585350","","","","","","",""
+"","","R1","RC0603FR-071KL","res_smd:RC0603FR-071KL","Main:RESC0603","","","RC0603FR-071KL","Yageo","100 mW","1.00 kΩ","STUFF","±1%","",""
+"","","U1","SD_MMC_FOOTPRINT","systems:SD_MMC_FOOTPRINT","Main:SD_MMC_CARD","","","","","","","","","",""
+"","","U2","QTPyESP32",":QTPyESP32_1","Main:QTPyESP32","","","QTPyESP32","","","","","","",""
+
+
+
+"Collated Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","C","MPN","Manufacturer","Pwr","Res","SKU","Tol","Type","Vmax"
+"1","2","C1, C2","CC0402KRX7R7BB103","cap_smd:CC0402KRX7R7BB103","Main:CAPC0402","","10.0 nF","CC0402KRX7R7BB103","Yageo","","","STUFF","±10%","X7R","16.0V"
+"2","1","D1","1N5819HW-7-F","Diode:1N5818","Diode_SMD:D_SOD-123","http://www.vishay.com/docs/88525/1n5817.pdf","","C82544","","","","","","",""
+"3","1","J1","Micro_SD_Card_Det","Connector:Micro_SD_Card_Det","Connector_Card:microSD_HC_Molex_104031-0811","https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&item_id=195&is_series=1","","C585350","","","","","","",""
+"4","1","R1","RC0603FR-071KL","res_smd:RC0603FR-071KL","Main:RESC0603","","","RC0603FR-071KL","Yageo","100 mW","1.00 kΩ","STUFF","±1%","",""
+"5","1","U1","SD_MMC_FOOTPRINT","systems:SD_MMC_FOOTPRINT","Main:SD_MMC_CARD","","","","","","","","","",""
+"6","1","U2","QTPyESP32",":QTPyESP32_1","Main:QTPyESP32","","","QTPyESP32","","","","","","",""
